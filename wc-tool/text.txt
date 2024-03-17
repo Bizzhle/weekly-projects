@@ -1,0 +1,8 @@
+
+     If no files are specified, the standard input is used and no file name is displayed.  The prompt will accept input until receiving EOF, or [^D] in most
+     environments.
+
+     If wc receives a SIGINFO (see the status argument for stty(1)) signal, t
+     he interim data will be written to the standard error output in the same format
+     as the standard completion message.
+     macOS 14.2
